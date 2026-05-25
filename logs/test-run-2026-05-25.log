@@ -1,0 +1,972 @@
+[2026-05-25T10:39:55.672Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T10:39:55.683Z] [INFO] START: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T10:39:55.691Z] [INFO] END [FAILED]: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T10:39:55.694Z] [INFO] START: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T10:39:55.696Z] [INFO] END [FAILED]: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T10:39:55.698Z] [INFO] START: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T10:39:55.700Z] [INFO] END [FAILED]: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T10:39:55.701Z] [INFO] START: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T10:39:55.703Z] [INFO] END [FAILED]: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T10:39:55.704Z] [INFO] START: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T10:39:55.706Z] [INFO] END [FAILED]: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T10:39:55.708Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T10:48:12.811Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T10:48:12.822Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:48:12.830Z] [INFO] END [FAILED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:48:12.832Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T10:52:47.458Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T10:52:47.468Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:52:47.473Z] [INFO] END [FAILED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:52:47.475Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T10:53:11.210Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T10:53:11.220Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:53:11.266Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T10:53:12.590Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T10:53:17.603Z] [WARN] Step FAILED: I am on the home page
+[2026-05-25T10:53:18.117Z] [INFO] END [FAILED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:53:18.184Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T10:53:50.577Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T10:53:50.588Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:53:50.612Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T10:53:50.830Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T10:53:55.210Z] [INFO] END [PASSED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:53:55.292Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T10:54:05.746Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T10:54:05.755Z] [INFO] START: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T10:54:05.776Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T10:54:05.967Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T10:54:10.119Z] [INFO] END [UNDEFINED]: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T10:54:10.200Z] [INFO] START: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T10:54:10.202Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T10:54:10.382Z] [INFO] END [UNDEFINED]: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T10:54:10.423Z] [INFO] START: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T10:54:10.424Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T10:54:10.615Z] [INFO] END [UNDEFINED]: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T10:54:10.656Z] [INFO] START: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T10:54:10.657Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T10:54:10.841Z] [INFO] END [UNDEFINED]: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T10:54:10.885Z] [INFO] START: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T10:54:10.887Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T10:54:11.056Z] [INFO] END [UNDEFINED]: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T10:54:11.094Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T10:56:30.429Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T10:56:30.438Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:56:30.458Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T10:56:30.641Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T10:56:34.682Z] [INFO] END [PASSED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:56:34.778Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T10:56:57.385Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T10:56:57.395Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:56:57.420Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T10:56:57.629Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T10:57:01.987Z] [INFO] END [PASSED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:57:02.108Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T10:59:22.002Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T10:59:22.017Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:59:22.050Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T10:59:23.072Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T10:59:28.082Z] [WARN] Step FAILED: I am on the home page
+[2026-05-25T10:59:29.217Z] [INFO] END [FAILED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:59:29.638Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T10:59:51.244Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T10:59:51.258Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:59:51.303Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T10:59:51.951Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T10:59:56.958Z] [WARN] Step FAILED: I am on the home page
+[2026-05-25T10:59:58.139Z] [INFO] END [FAILED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T10:59:58.701Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T11:00:34.241Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T11:00:34.253Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:00:34.285Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:00:34.969Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:00:39.980Z] [WARN] Step FAILED: I am on the home page
+[2026-05-25T11:00:41.007Z] [INFO] END [FAILED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:00:41.567Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T11:01:02.901Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T11:01:02.910Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:01:02.932Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:01:03.365Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:01:08.371Z] [WARN] Step FAILED: I am on the home page
+[2026-05-25T11:01:09.462Z] [INFO] END [FAILED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:01:09.978Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T11:01:44.479Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T11:01:44.491Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:01:44.516Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:01:44.994Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:01:49.998Z] [WARN] Step FAILED: I am on the home page
+[2026-05-25T11:01:51.060Z] [INFO] END [FAILED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:01:51.500Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T11:05:17.114Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T11:05:17.154Z] [INFO] START: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T11:05:17.181Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:05:17.705Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:05:22.667Z] [WARN] Step FAILED: I am on the home page with network interception active for banner images
+[2026-05-25T11:05:23.792Z] [INFO] END [FAILED]: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T11:05:24.213Z] [INFO] START: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T11:05:24.215Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:05:24.653Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T11:05:29.656Z] [WARN] Step FAILED: a registered user is logged into Browser Context A
+[2026-05-25T11:05:29.828Z] [INFO] END [FAILED]: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T11:05:30.383Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T11:05:30.386Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:05:31.311Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T11:05:36.324Z] [WARN] Step FAILED: I navigate to the products page
+[2026-05-25T11:05:37.349Z] [INFO] END [FAILED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T11:05:37.763Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T11:05:37.765Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:05:41.898Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T11:05:46.901Z] [WARN] Step FAILED: I navigate to the cart page
+[2026-05-25T11:05:47.085Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T11:05:47.557Z] [INFO] START: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T11:05:47.561Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:05:48.329Z] [INFO] Navigating to: https://www.automationexercise.com/contact_us
+[2026-05-25T11:05:53.338Z] [WARN] Step FAILED: I navigate to the contact us page
+[2026-05-25T11:05:53.593Z] [INFO] END [FAILED]: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T11:05:54.057Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:05:54.060Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:05:54.868Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:05:59.878Z] [WARN] Step FAILED: I am on the home page
+[2026-05-25T11:06:01.563Z] [INFO] END [FAILED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:06:02.315Z] [INFO] START: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T11:06:02.317Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:06:03.181Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:06:08.190Z] [WARN] Step FAILED: I am on the home page
+[2026-05-25T11:06:09.451Z] [INFO] END [FAILED]: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T11:06:10.046Z] [INFO] START: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T11:06:10.050Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:06:10.731Z] [INFO] END [UNDEFINED]: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T11:06:11.278Z] [INFO] START: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T11:06:11.281Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:06:12.114Z] [INFO] END [UNDEFINED]: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T11:06:12.547Z] [INFO] START: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T11:06:12.549Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:06:13.289Z] [INFO] END [UNDEFINED]: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T11:06:13.763Z] [INFO] START: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T11:06:13.765Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:06:14.552Z] [INFO] END [UNDEFINED]: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T11:06:15.082Z] [INFO] START: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T11:06:15.085Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:06:15.768Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T11:06:20.775Z] [WARN] Step FAILED: I navigate to the products page
+[2026-05-25T11:06:21.808Z] [INFO] END [FAILED]: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T11:06:22.347Z] [INFO] START: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T11:06:22.350Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:06:23.091Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T11:06:28.101Z] [WARN] Step FAILED: I navigate to the products page
+[2026-05-25T11:06:29.509Z] [INFO] END [FAILED]: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T11:06:30.334Z] [INFO] START: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T11:06:30.338Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:06:31.069Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T11:06:36.073Z] [WARN] Step FAILED: I navigate to the products page
+[2026-05-25T11:06:37.383Z] [INFO] END [FAILED]: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T11:06:38.133Z] [INFO] START: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T11:06:38.137Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:06:39.071Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T11:06:44.074Z] [WARN] Step FAILED: I navigate to the products page
+[2026-05-25T11:06:45.138Z] [INFO] END [FAILED]: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T11:06:45.682Z] [INFO] START: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T11:06:45.684Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:06:46.415Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T11:06:51.421Z] [WARN] Step FAILED: I navigate to the products page
+[2026-05-25T11:06:52.603Z] [INFO] END [FAILED]: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T11:06:53.228Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T11:07:52.309Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T11:07:52.318Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:07:52.339Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:07:52.696Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:07:57.702Z] [WARN] Step FAILED: I am on the home page
+[2026-05-25T11:07:58.949Z] [INFO] END [FAILED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:07:59.139Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T11:09:50.237Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T11:09:50.245Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:09:50.263Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:09:50.421Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:09:52.197Z] [INFO] END [PASSED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:09:52.244Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T11:10:05.135Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T11:10:05.144Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:10:05.166Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:10:05.704Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:10:08.230Z] [INFO] END [PASSED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:10:08.573Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T11:10:38.957Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T11:10:38.965Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:10:38.986Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:10:39.143Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:10:40.644Z] [INFO] END [PASSED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T11:10:40.700Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T11:22:13.612Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T11:22:13.628Z] [INFO] START: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T11:22:13.646Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:22:14.056Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:22:17.625Z] [INFO] END [PASSED]: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T11:22:17.873Z] [INFO] START: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T11:22:17.874Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:22:18.266Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T11:22:22.635Z] [INFO] END [PASSED]: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T11:22:22.886Z] [INFO] START: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T11:22:22.887Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:22:23.285Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T11:22:28.287Z] [WARN] Step FAILED: a registered user exists in the system
+[2026-05-25T11:22:29.549Z] [INFO] END [FAILED]: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T11:22:29.799Z] [INFO] START: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T11:22:29.800Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:22:30.162Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T11:22:32.925Z] [INFO] END [PASSED]: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T11:22:33.132Z] [INFO] START: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T11:22:33.133Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:22:33.607Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T11:22:39.758Z] [INFO] END [PASSED]: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T11:22:40.265Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T11:23:25.482Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T11:23:25.495Z] [INFO] START: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T11:23:25.512Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:23:25.914Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:23:28.398Z] [INFO] Banner image interception route registered and active
+[2026-05-25T11:23:28.478Z] [INFO] END [PASSED]: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T11:23:28.742Z] [INFO] START: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T11:23:28.743Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:23:29.121Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T11:23:34.124Z] [WARN] Step FAILED: a registered user is logged into Browser Context A
+[2026-05-25T11:23:34.257Z] [INFO] END [FAILED]: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T11:23:34.469Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T11:24:37.262Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T11:24:37.274Z] [INFO] START: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T11:24:37.294Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:24:37.737Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T11:24:40.291Z] [INFO] Banner image interception route registered and active
+[2026-05-25T11:24:40.374Z] [INFO] END [PASSED]: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T11:24:40.611Z] [INFO] START: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T11:24:40.612Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T11:24:40.957Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T11:24:45.294Z] [INFO] Context A: User "Kacie Marquardt" logged in successfully
+[2026-05-25T11:24:45.297Z] [INFO] Extracted 4 cookies from Context A
+[2026-05-25T11:24:45.414Z] [INFO] Browser Context B created as isolated session
+[2026-05-25T11:24:45.421Z] [INFO] Injected 4 cookies into Context B
+[2026-05-25T11:24:49.956Z] [INFO] Context B: Cookie injection verified — user "Kacie Marquardt" is authenticated
+[2026-05-25T11:24:50.018Z] [INFO] END [PASSED]: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T11:24:50.562Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:01:19.214Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:01:19.292Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:01:19.367Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:01:20.098Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:01:24.388Z] [WARN] Step FAILED: I hover over the first product and click "Add to cart"
+[2026-05-25T12:01:24.611Z] [INFO] END [FAILED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:01:24.760Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:01:24.761Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:01:27.696Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:01:33.150Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:01:33.274Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:01:33.345Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:02:35.261Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:02:35.284Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:02:35.319Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:02:35.604Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:02:39.142Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:02:39.676Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:02:39.761Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:02:39.763Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:02:42.859Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:02:48.485Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:02:48.572Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:02:48.711Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:04:25.806Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:04:25.828Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:04:25.858Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:04:26.108Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:04:30.378Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:04:31.251Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:04:31.322Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:04:31.324Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:04:34.895Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:04:40.809Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:04:40.858Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:04:40.923Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:05:21.472Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:05:21.488Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:05:21.509Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:05:21.695Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:05:25.560Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:05:26.402Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:05:26.475Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:05:26.477Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:05:30.113Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:05:36.374Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:05:36.440Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:05:36.510Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:06:02.183Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:06:02.200Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:06:02.221Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:06:02.437Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:06:06.563Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:06:07.414Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:06:07.542Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:06:07.546Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:06:10.938Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:06:17.087Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:06:17.160Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:06:17.267Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:06:45.376Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:06:45.393Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:06:45.415Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:06:45.604Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:06:50.567Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:06:51.842Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:06:51.951Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:06:51.953Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:06:54.846Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:07:00.598Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:07:00.672Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:07:00.767Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:07:33.324Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:07:33.340Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:07:33.361Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:07:33.562Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:07:36.835Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:07:37.766Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:07:37.859Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:07:37.860Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:07:41.083Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:07:46.432Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:07:46.489Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:07:46.559Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:08:05.788Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:08:05.805Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:08:05.825Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:08:06.016Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:08:11.008Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:08:12.255Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:08:12.316Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:08:12.318Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:08:14.910Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:08:20.818Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:08:20.884Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:08:20.962Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:08:54.612Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:08:54.629Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:08:54.655Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:08:54.842Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:08:58.734Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:08:59.356Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:08:59.410Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:08:59.411Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:09:02.426Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:09:03.687Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:09:03.759Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:09:03.837Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:09:22.263Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:09:22.281Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:09:22.302Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:09:22.489Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:09:26.110Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:09:26.661Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:09:26.737Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:09:26.739Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:09:29.829Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:09:30.244Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:09:30.291Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:09:30.361Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:09:57.535Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:09:57.551Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:09:57.573Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:09:57.769Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:10:01.426Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:10:02.464Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:10:02.543Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:10:02.544Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:10:05.410Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:10:10.952Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:10:11.061Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:10:11.189Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:10:42.992Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:10:43.021Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:10:43.066Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:10:43.355Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:10:46.760Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:10:47.532Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:10:47.647Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:10:47.650Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:10:50.626Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:10:56.605Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:10:56.663Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:10:56.742Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:11:34.806Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:11:34.820Z] [INFO] START: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T12:11:34.846Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:11:35.031Z] [INFO] Navigating to: https://www.automationexercise.com/contact_us
+[2026-05-25T12:11:37.049Z] [WARN] Step FAILED: I should see the success message "Success! Your details have been submitted successfully."
+[2026-05-25T12:11:37.427Z] [INFO] END [FAILED]: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T12:11:37.557Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:12:14.308Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:12:14.329Z] [INFO] START: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T12:12:14.358Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:12:14.635Z] [INFO] Navigating to: https://www.automationexercise.com/contact_us
+[2026-05-25T12:12:17.303Z] [INFO] END [PASSED]: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T12:12:17.436Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:13:21.296Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:13:21.316Z] [INFO] START: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T12:13:21.336Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:13:21.519Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:13:23.208Z] [INFO] END [PASSED]: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T12:13:23.294Z] [INFO] START: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T12:13:23.297Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:13:23.474Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:13:26.626Z] [INFO] END [PASSED]: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T12:13:26.678Z] [INFO] START: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T12:13:26.680Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:13:26.862Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:13:30.334Z] [INFO] END [PASSED]: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T12:13:30.428Z] [INFO] START: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T12:13:30.431Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:13:30.708Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:13:34.598Z] [INFO] END [PASSED]: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T12:13:34.715Z] [INFO] START: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T12:13:34.718Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:13:35.002Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:13:37.852Z] [INFO] END [PASSED]: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T12:13:37.937Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:14:31.801Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:14:31.829Z] [INFO] START: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T12:14:31.863Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:14:32.140Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:14:34.154Z] [INFO] END [PASSED]: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T12:14:34.244Z] [INFO] START: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T12:14:34.246Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:14:34.484Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:14:38.831Z] [INFO] END [PASSED]: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T12:14:38.934Z] [INFO] START: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T12:14:38.937Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:14:39.208Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:14:42.935Z] [INFO] END [PASSED]: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T12:14:43.026Z] [INFO] START: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T12:14:43.028Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:14:43.306Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:14:46.239Z] [INFO] END [PASSED]: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T12:14:46.332Z] [INFO] START: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T12:14:46.335Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:14:46.598Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:14:49.688Z] [INFO] END [PASSED]: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T12:14:49.759Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:16:02.736Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:16:02.790Z] [INFO] START: API-003 GET /brandsList returns populated brand items
+[2026-05-25T12:16:02.838Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:16:02.844Z] [INFO] GET https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:16:04.103Z] [INFO] Response [200] from https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:16:04.150Z] [INFO] END [PASSED]: API-003 GET /brandsList returns populated brand items
+[2026-05-25T12:16:04.155Z] [INFO] START: API-004 PUT /brandsList is rejected with method not allowed
+[2026-05-25T12:16:04.157Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:16:04.159Z] [INFO] PUT https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:16:04.604Z] [INFO] Response [200] from https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:16:04.607Z] [INFO] END [PASSED]: API-004 PUT /brandsList is rejected with method not allowed
+[2026-05-25T12:16:04.609Z] [INFO] START: API-001 GET /productsList returns a valid structured array
+[2026-05-25T12:16:04.611Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:16:04.613Z] [INFO] GET https://www.automationexercise.com/api/productsList
+[2026-05-25T12:16:05.301Z] [INFO] Response [200] from https://www.automationexercise.com/api/productsList
+[2026-05-25T12:16:05.343Z] [INFO] END [PASSED]: API-001 GET /productsList returns a valid structured array
+[2026-05-25T12:16:05.356Z] [INFO] START: API-002 POST /productsList is rejected with method not allowed
+[2026-05-25T12:16:05.358Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:16:05.360Z] [INFO] POST https://www.automationexercise.com/api/productsList
+[2026-05-25T12:16:05.709Z] [INFO] Response [200] from https://www.automationexercise.com/api/productsList
+[2026-05-25T12:16:05.712Z] [INFO] END [PASSED]: API-002 POST /productsList is rejected with method not allowed
+[2026-05-25T12:16:05.715Z] [INFO] START: API-005 POST /searchProduct with valid parameter returns matching results
+[2026-05-25T12:16:05.717Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:16:05.719Z] [INFO] POST https://www.automationexercise.com/api/searchProduct
+[2026-05-25T12:16:06.291Z] [INFO] Response [200] from https://www.automationexercise.com/api/searchProduct
+[2026-05-25T12:16:06.299Z] [INFO] END [PASSED]: API-005 POST /searchProduct with valid parameter returns matching results
+[2026-05-25T12:16:06.304Z] [INFO] START: API-006 POST /searchProduct without required parameter returns validation error
+[2026-05-25T12:16:06.308Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:16:06.312Z] [INFO] POST https://www.automationexercise.com/api/searchProduct
+[2026-05-25T12:16:06.853Z] [INFO] Response [200] from https://www.automationexercise.com/api/searchProduct
+[2026-05-25T12:16:06.858Z] [INFO] END [PASSED]: API-006 POST /searchProduct without required parameter returns validation error
+[2026-05-25T12:16:06.861Z] [INFO] START: API-007 Complete User Lifecycle - Create, Update, Fetch, and Delete
+[2026-05-25T12:16:06.864Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:16:06.873Z] [INFO] POST https://www.automationexercise.com/api/createAccount
+[2026-05-25T12:16:07.293Z] [INFO] Response [200] from https://www.automationexercise.com/api/createAccount
+[2026-05-25T12:16:07.298Z] [INFO] PUT https://www.automationexercise.com/api/updateAccount
+[2026-05-25T12:16:07.833Z] [INFO] Response [200] from https://www.automationexercise.com/api/updateAccount
+[2026-05-25T12:16:07.842Z] [INFO] GET https://www.automationexercise.com/api/getUserDetailByEmail
+[2026-05-25T12:16:08.284Z] [INFO] Response [200] from https://www.automationexercise.com/api/getUserDetailByEmail
+[2026-05-25T12:16:08.289Z] [INFO] DELETE https://www.automationexercise.com/api/deleteAccount
+[2026-05-25T12:16:08.990Z] [INFO] Response [200] from https://www.automationexercise.com/api/deleteAccount
+[2026-05-25T12:16:08.995Z] [INFO] END [PASSED]: API-007 Complete User Lifecycle - Create, Update, Fetch, and Delete
+[2026-05-25T12:16:09.000Z] [INFO] START: API-008 POST /verifyLogin with invalid credentials returns error
+[2026-05-25T12:16:09.002Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:16:09.004Z] [INFO] POST https://www.automationexercise.com/api/verifyLogin
+[2026-05-25T12:16:09.600Z] [INFO] Response [200] from https://www.automationexercise.com/api/verifyLogin
+[2026-05-25T12:16:09.605Z] [INFO] END [PASSED]: API-008 POST /verifyLogin with invalid credentials returns error
+[2026-05-25T12:16:09.608Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:17:00.062Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:17:00.182Z] [INFO] START: API-003 GET /brandsList returns populated brand items
+[2026-05-25T12:17:00.242Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:17:00.252Z] [INFO] GET https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:17:01.673Z] [INFO] Response [200] from https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:17:01.704Z] [INFO] END [PASSED]: API-003 GET /brandsList returns populated brand items
+[2026-05-25T12:17:01.733Z] [INFO] START: API-004 PUT /brandsList is rejected with method not allowed
+[2026-05-25T12:17:01.735Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:17:01.736Z] [INFO] PUT https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:17:02.339Z] [INFO] Response [200] from https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:17:02.343Z] [INFO] END [PASSED]: API-004 PUT /brandsList is rejected with method not allowed
+[2026-05-25T12:17:02.349Z] [INFO] START: API-001 GET /productsList returns a valid structured array
+[2026-05-25T12:17:02.352Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:17:02.353Z] [INFO] GET https://www.automationexercise.com/api/productsList
+[2026-05-25T12:17:03.274Z] [INFO] Response [200] from https://www.automationexercise.com/api/productsList
+[2026-05-25T12:17:03.328Z] [INFO] END [PASSED]: API-001 GET /productsList returns a valid structured array
+[2026-05-25T12:17:03.334Z] [INFO] START: API-002 POST /productsList is rejected with method not allowed
+[2026-05-25T12:17:03.335Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:17:03.337Z] [INFO] POST https://www.automationexercise.com/api/productsList
+[2026-05-25T12:17:04.076Z] [INFO] Response [200] from https://www.automationexercise.com/api/productsList
+[2026-05-25T12:17:04.086Z] [INFO] END [PASSED]: API-002 POST /productsList is rejected with method not allowed
+[2026-05-25T12:17:04.102Z] [INFO] START: API-005 POST /searchProduct with valid parameter returns matching results
+[2026-05-25T12:17:04.106Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:17:04.110Z] [INFO] POST https://www.automationexercise.com/api/searchProduct
+[2026-05-25T12:17:04.689Z] [INFO] Response [200] from https://www.automationexercise.com/api/searchProduct
+[2026-05-25T12:17:04.695Z] [INFO] END [PASSED]: API-005 POST /searchProduct with valid parameter returns matching results
+[2026-05-25T12:17:04.730Z] [INFO] START: API-006 POST /searchProduct without required parameter returns validation error
+[2026-05-25T12:17:04.739Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:17:04.744Z] [INFO] POST https://www.automationexercise.com/api/searchProduct
+[2026-05-25T12:17:05.201Z] [INFO] Response [200] from https://www.automationexercise.com/api/searchProduct
+[2026-05-25T12:17:05.203Z] [INFO] END [PASSED]: API-006 POST /searchProduct without required parameter returns validation error
+[2026-05-25T12:17:05.209Z] [INFO] START: API-007 Complete User Lifecycle - Create, Update, Fetch, and Delete
+[2026-05-25T12:17:05.211Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:17:05.215Z] [INFO] POST https://www.automationexercise.com/api/createAccount
+[2026-05-25T12:17:05.617Z] [INFO] Response [200] from https://www.automationexercise.com/api/createAccount
+[2026-05-25T12:17:05.621Z] [INFO] PUT https://www.automationexercise.com/api/updateAccount
+[2026-05-25T12:17:06.521Z] [INFO] Response [200] from https://www.automationexercise.com/api/updateAccount
+[2026-05-25T12:17:06.525Z] [INFO] GET https://www.automationexercise.com/api/getUserDetailByEmail
+[2026-05-25T12:17:06.942Z] [INFO] Response [200] from https://www.automationexercise.com/api/getUserDetailByEmail
+[2026-05-25T12:17:06.946Z] [INFO] DELETE https://www.automationexercise.com/api/deleteAccount
+[2026-05-25T12:17:07.432Z] [INFO] Response [200] from https://www.automationexercise.com/api/deleteAccount
+[2026-05-25T12:17:07.439Z] [INFO] END [PASSED]: API-007 Complete User Lifecycle - Create, Update, Fetch, and Delete
+[2026-05-25T12:17:07.453Z] [INFO] START: API-008 POST /verifyLogin with invalid credentials returns error
+[2026-05-25T12:17:07.454Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:17:07.456Z] [INFO] POST https://www.automationexercise.com/api/verifyLogin
+[2026-05-25T12:17:08.069Z] [INFO] Response [200] from https://www.automationexercise.com/api/verifyLogin
+[2026-05-25T12:17:08.073Z] [INFO] END [PASSED]: API-008 POST /verifyLogin with invalid credentials returns error
+[2026-05-25T12:17:08.078Z] [INFO] START: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T12:17:08.079Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:08.277Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T12:17:10.078Z] [INFO] Banner image interception route registered and active
+[2026-05-25T12:17:10.305Z] [INFO] END [PASSED]: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T12:17:10.458Z] [INFO] START: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T12:17:10.461Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:10.802Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:17:15.816Z] [WARN] Step FAILED: a registered user is logged into Browser Context A
+[2026-05-25T12:17:16.934Z] [INFO] END [FAILED]: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T12:17:17.022Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:17:17.024Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:17.214Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:17:20.405Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:17:20.939Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:17:21.003Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:17:21.004Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:24.424Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:17:24.918Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:17:25.008Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:17:25.119Z] [INFO] START: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T12:17:25.121Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:25.402Z] [INFO] Navigating to: https://www.automationexercise.com/contact_us
+[2026-05-25T12:17:27.584Z] [INFO] END [PASSED]: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T12:17:27.701Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T12:17:27.703Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:27.961Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T12:17:29.214Z] [INFO] END [PASSED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T12:17:29.291Z] [INFO] START: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T12:17:29.292Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:29.551Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T12:17:32.815Z] [INFO] END [PASSED]: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T12:17:32.942Z] [INFO] START: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T12:17:32.944Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:33.218Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:17:39.632Z] [INFO] END [PASSED]: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T12:17:39.763Z] [INFO] START: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T12:17:39.772Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:40.024Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:17:45.034Z] [WARN] Step FAILED: a registered user exists in the system
+[2026-05-25T12:17:47.311Z] [INFO] END [FAILED]: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T12:17:47.458Z] [INFO] START: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T12:17:47.460Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:47.734Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:17:49.873Z] [INFO] END [PASSED]: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T12:17:49.991Z] [INFO] START: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T12:17:49.993Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:50.277Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:17:55.297Z] [WARN] Step FAILED: a registered user is logged in
+[2026-05-25T12:17:56.501Z] [INFO] END [FAILED]: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T12:17:56.649Z] [INFO] START: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T12:17:56.651Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:56.925Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:17:58.753Z] [INFO] END [PASSED]: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T12:17:58.866Z] [INFO] START: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T12:17:58.881Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:17:59.173Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:18:02.074Z] [INFO] END [PASSED]: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T12:18:02.187Z] [INFO] START: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T12:18:02.189Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:18:02.459Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:18:05.574Z] [INFO] END [PASSED]: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T12:18:05.673Z] [INFO] START: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T12:18:05.675Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:18:05.947Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:18:08.954Z] [INFO] END [PASSED]: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T12:18:09.044Z] [INFO] START: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T12:18:09.054Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:18:09.326Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:18:12.390Z] [INFO] END [PASSED]: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T12:18:12.522Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:21:47.306Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:21:47.324Z] [INFO] START: API-003 GET /brandsList returns populated brand items
+[2026-05-25T12:21:47.355Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:21:47.367Z] [INFO] GET https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:21:49.275Z] [INFO] Response [200] from https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:21:49.306Z] [INFO] END [PASSED]: API-003 GET /brandsList returns populated brand items
+[2026-05-25T12:21:49.319Z] [INFO] START: API-004 PUT /brandsList is rejected with method not allowed
+[2026-05-25T12:21:49.321Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:21:49.323Z] [INFO] PUT https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:21:50.181Z] [INFO] Response [200] from https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:21:50.191Z] [INFO] END [PASSED]: API-004 PUT /brandsList is rejected with method not allowed
+[2026-05-25T12:21:50.198Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:23:17.093Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:23:17.130Z] [INFO] START: API-003 GET /brandsList returns populated brand items
+[2026-05-25T12:23:17.154Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:23:17.160Z] [INFO] GET https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:23:19.184Z] [INFO] Response [200] from https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:23:19.247Z] [INFO] END [PASSED]: API-003 GET /brandsList returns populated brand items
+[2026-05-25T12:23:19.250Z] [INFO] START: API-004 PUT /brandsList is rejected with method not allowed
+[2026-05-25T12:23:19.253Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:23:19.255Z] [INFO] PUT https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:23:19.691Z] [INFO] Response [200] from https://www.automationexercise.com/api/brandsList
+[2026-05-25T12:23:19.697Z] [INFO] END [PASSED]: API-004 PUT /brandsList is rejected with method not allowed
+[2026-05-25T12:23:19.701Z] [INFO] START: API-001 GET /productsList returns a valid structured array
+[2026-05-25T12:23:19.704Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:23:19.707Z] [INFO] GET https://www.automationexercise.com/api/productsList
+[2026-05-25T12:23:20.707Z] [INFO] Response [200] from https://www.automationexercise.com/api/productsList
+[2026-05-25T12:23:20.786Z] [INFO] END [PASSED]: API-001 GET /productsList returns a valid structured array
+[2026-05-25T12:23:20.805Z] [INFO] START: API-002 POST /productsList is rejected with method not allowed
+[2026-05-25T12:23:20.809Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:23:20.814Z] [INFO] POST https://www.automationexercise.com/api/productsList
+[2026-05-25T12:23:21.734Z] [INFO] Response [200] from https://www.automationexercise.com/api/productsList
+[2026-05-25T12:23:21.741Z] [INFO] END [PASSED]: API-002 POST /productsList is rejected with method not allowed
+[2026-05-25T12:23:21.744Z] [INFO] START: API-005 POST /searchProduct with valid parameter returns matching results
+[2026-05-25T12:23:21.747Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:23:21.749Z] [INFO] POST https://www.automationexercise.com/api/searchProduct
+[2026-05-25T12:23:22.504Z] [INFO] Response [200] from https://www.automationexercise.com/api/searchProduct
+[2026-05-25T12:23:22.515Z] [INFO] END [PASSED]: API-005 POST /searchProduct with valid parameter returns matching results
+[2026-05-25T12:23:22.522Z] [INFO] START: API-006 POST /searchProduct without required parameter returns validation error
+[2026-05-25T12:23:22.526Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:23:22.534Z] [INFO] POST https://www.automationexercise.com/api/searchProduct
+[2026-05-25T12:23:22.902Z] [INFO] Response [200] from https://www.automationexercise.com/api/searchProduct
+[2026-05-25T12:23:22.909Z] [INFO] END [PASSED]: API-006 POST /searchProduct without required parameter returns validation error
+[2026-05-25T12:23:22.913Z] [INFO] START: API-007 Complete User Lifecycle - Create, Update, Fetch, and Delete
+[2026-05-25T12:23:22.916Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:23:22.929Z] [INFO] POST https://www.automationexercise.com/api/createAccount
+[2026-05-25T12:23:23.780Z] [INFO] Response [200] from https://www.automationexercise.com/api/createAccount
+[2026-05-25T12:23:23.788Z] [INFO] PUT https://www.automationexercise.com/api/updateAccount
+[2026-05-25T12:23:24.496Z] [INFO] Response [200] from https://www.automationexercise.com/api/updateAccount
+[2026-05-25T12:23:24.504Z] [INFO] GET https://www.automationexercise.com/api/getUserDetailByEmail
+[2026-05-25T12:23:25.214Z] [INFO] Response [200] from https://www.automationexercise.com/api/getUserDetailByEmail
+[2026-05-25T12:23:25.222Z] [INFO] DELETE https://www.automationexercise.com/api/deleteAccount
+[2026-05-25T12:23:26.237Z] [INFO] Response [200] from https://www.automationexercise.com/api/deleteAccount
+[2026-05-25T12:23:26.244Z] [INFO] END [PASSED]: API-007 Complete User Lifecycle - Create, Update, Fetch, and Delete
+[2026-05-25T12:23:26.249Z] [INFO] START: API-008 POST /verifyLogin with invalid credentials returns error
+[2026-05-25T12:23:26.253Z] [INFO] API scenario — browser skipped
+[2026-05-25T12:23:26.257Z] [INFO] POST https://www.automationexercise.com/api/verifyLogin
+[2026-05-25T12:23:26.750Z] [INFO] Response [200] from https://www.automationexercise.com/api/verifyLogin
+[2026-05-25T12:23:26.757Z] [INFO] END [PASSED]: API-008 POST /verifyLogin with invalid credentials returns error
+[2026-05-25T12:23:26.761Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:26:53.542Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:26:53.580Z] [INFO] START: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T12:26:53.604Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:26:53.825Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T12:26:58.115Z] [INFO] Banner image interception route registered and active
+[2026-05-25T12:26:58.346Z] [INFO] END [PASSED]: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T12:26:58.462Z] [INFO] START: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T12:26:58.464Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:26:58.707Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:27:03.716Z] [WARN] Step FAILED: a registered user is logged into Browser Context A
+[2026-05-25T12:27:04.816Z] [INFO] END [FAILED]: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T12:27:04.952Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:27:04.954Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:05.203Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:27:09.023Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:27:09.793Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:27:09.865Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:27:09.866Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:14.670Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:27:15.916Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:27:15.971Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:27:16.041Z] [INFO] START: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T12:27:16.043Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:16.321Z] [INFO] Navigating to: https://www.automationexercise.com/contact_us
+[2026-05-25T12:27:19.211Z] [INFO] END [PASSED]: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T12:27:19.309Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T12:27:19.312Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:19.557Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T12:27:21.767Z] [INFO] END [PASSED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T12:27:21.880Z] [INFO] START: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T12:27:21.882Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:22.138Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T12:27:25.765Z] [INFO] END [PASSED]: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T12:27:25.862Z] [INFO] START: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T12:27:25.864Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:26.139Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:27:32.676Z] [INFO] END [PASSED]: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T12:27:32.770Z] [INFO] START: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T12:27:32.773Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:33.024Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:27:38.041Z] [WARN] Step FAILED: a registered user exists in the system
+[2026-05-25T12:27:40.203Z] [INFO] END [FAILED]: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T12:27:40.305Z] [INFO] START: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T12:27:40.307Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:40.557Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:27:43.678Z] [INFO] END [PASSED]: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T12:27:43.780Z] [INFO] START: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T12:27:43.783Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:44.037Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:27:49.046Z] [WARN] Step FAILED: a registered user is logged in
+[2026-05-25T12:27:49.968Z] [INFO] END [FAILED]: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T12:27:50.274Z] [INFO] START: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T12:27:50.276Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:50.513Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:27:52.152Z] [INFO] END [PASSED]: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T12:27:52.230Z] [INFO] START: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T12:27:52.234Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:52.486Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:27:55.812Z] [INFO] END [PASSED]: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T12:27:55.953Z] [INFO] START: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T12:27:55.957Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:56.262Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:27:59.217Z] [INFO] END [PASSED]: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T12:27:59.308Z] [INFO] START: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T12:27:59.311Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:27:59.545Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:28:02.467Z] [INFO] END [PASSED]: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T12:28:02.574Z] [INFO] START: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T12:28:02.578Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:28:02.798Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:28:05.424Z] [INFO] END [PASSED]: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T12:28:05.485Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T12:30:10.313Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T12:30:10.362Z] [INFO] START: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T12:30:10.400Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:30:10.698Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T12:30:13.480Z] [INFO] Banner image interception route registered and active
+[2026-05-25T12:30:13.824Z] [INFO] END [PASSED]: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T12:30:13.947Z] [INFO] START: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T12:30:13.949Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:30:14.231Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:30:19.242Z] [WARN] Step FAILED: a registered user is logged into Browser Context A
+[2026-05-25T12:30:20.410Z] [INFO] END [FAILED]: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T12:30:20.535Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:30:20.538Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:30:20.791Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:30:23.498Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:30:24.081Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T12:30:24.184Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:30:24.190Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:30:27.542Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T12:30:28.013Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T12:30:28.079Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T12:30:28.226Z] [INFO] START: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T12:30:28.228Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:30:28.451Z] [INFO] Navigating to: https://www.automationexercise.com/contact_us
+[2026-05-25T12:30:30.468Z] [INFO] END [PASSED]: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T12:30:30.576Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T12:30:30.578Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:30:30.843Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T12:30:33.021Z] [INFO] END [PASSED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T12:30:33.097Z] [INFO] START: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T12:30:33.099Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:30:33.382Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T12:30:35.982Z] [INFO] END [PASSED]: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T12:30:36.027Z] [INFO] START: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T12:30:36.028Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:30:36.210Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:30:41.613Z] [INFO] END [PASSED]: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T12:30:41.693Z] [INFO] START: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T12:30:41.695Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:30:41.975Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:30:46.978Z] [WARN] Step FAILED: a registered user exists in the system
+[2026-05-25T12:30:49.493Z] [INFO] END [FAILED]: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T12:30:49.658Z] [INFO] START: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T12:30:49.660Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:30:49.850Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:30:52.696Z] [INFO] END [PASSED]: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T12:30:52.791Z] [INFO] START: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T12:30:52.793Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:30:53.054Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T12:30:58.071Z] [WARN] Step FAILED: a registered user is logged in
+[2026-05-25T12:30:59.441Z] [INFO] END [FAILED]: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T12:30:59.549Z] [INFO] START: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T12:30:59.554Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:30:59.842Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:31:01.427Z] [INFO] END [PASSED]: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T12:31:01.524Z] [INFO] START: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T12:31:01.527Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:31:01.821Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:31:04.603Z] [INFO] END [PASSED]: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T12:31:04.728Z] [INFO] START: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T12:31:04.730Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:31:05.085Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:31:08.293Z] [INFO] END [PASSED]: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T12:31:08.398Z] [INFO] START: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T12:31:08.401Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:31:08.665Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:31:11.252Z] [INFO] END [PASSED]: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T12:31:11.321Z] [INFO] START: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T12:31:11.322Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T12:31:11.497Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T12:31:14.819Z] [INFO] END [PASSED]: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T12:31:14.928Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T13:04:33.980Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T13:04:34.019Z] [INFO] START: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T13:04:34.045Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:34.262Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T13:04:34.315Z] [WARN] Step FAILED: I am on the home page with network interception active for banner images
+[2026-05-25T13:04:34.444Z] [INFO] END [FAILED]: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T13:04:34.507Z] [INFO] START: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T13:04:34.510Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:34.718Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T13:04:34.739Z] [WARN] Step FAILED: a registered user is logged into Browser Context A
+[2026-05-25T13:04:34.900Z] [INFO] END [FAILED]: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T13:04:34.972Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T13:04:34.975Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:35.213Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T13:04:35.230Z] [WARN] Step FAILED: I navigate to the products page
+[2026-05-25T13:04:35.361Z] [INFO] END [FAILED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T13:04:35.458Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T13:04:35.461Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:35.722Z] [WARN] Step FAILED: I navigate to the product detail page for product 1
+[2026-05-25T13:04:35.880Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T13:04:35.957Z] [INFO] START: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T13:04:35.960Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:36.193Z] [INFO] Navigating to: https://www.automationexercise.com/contact_us
+[2026-05-25T13:04:36.213Z] [WARN] Step FAILED: I navigate to the contact us page
+[2026-05-25T13:04:36.378Z] [INFO] END [FAILED]: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T13:04:36.460Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T13:04:36.462Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:36.725Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T13:04:36.752Z] [WARN] Step FAILED: I am on the home page
+[2026-05-25T13:04:36.902Z] [INFO] END [FAILED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T13:04:36.968Z] [INFO] START: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T13:04:36.969Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:37.220Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T13:04:37.241Z] [WARN] Step FAILED: I am on the home page
+[2026-05-25T13:04:37.384Z] [INFO] END [FAILED]: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T13:04:37.473Z] [INFO] START: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T13:04:37.475Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:37.727Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T13:04:37.744Z] [WARN] Step FAILED: I am on the login page
+[2026-05-25T13:04:37.907Z] [INFO] END [FAILED]: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T13:04:37.986Z] [INFO] START: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T13:04:37.987Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:38.174Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T13:04:38.193Z] [WARN] Step FAILED: a registered user exists in the system
+[2026-05-25T13:04:38.314Z] [INFO] END [FAILED]: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T13:04:38.361Z] [INFO] START: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T13:04:38.362Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:38.547Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T13:04:38.562Z] [WARN] Step FAILED: I am on the login page
+[2026-05-25T13:04:38.669Z] [INFO] END [FAILED]: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T13:04:38.713Z] [INFO] START: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T13:04:38.714Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:38.908Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T13:04:38.925Z] [WARN] Step FAILED: a registered user is logged in
+[2026-05-25T13:04:39.072Z] [INFO] END [FAILED]: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T13:04:39.149Z] [INFO] START: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T13:04:39.151Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:39.399Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T13:04:39.420Z] [WARN] Step FAILED: I navigate to the products page
+[2026-05-25T13:04:39.567Z] [INFO] END [FAILED]: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T13:04:39.632Z] [INFO] START: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T13:04:39.634Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:39.859Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T13:04:39.875Z] [WARN] Step FAILED: I navigate to the products page
+[2026-05-25T13:04:40.010Z] [INFO] END [FAILED]: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T13:04:40.089Z] [INFO] START: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T13:04:40.091Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:40.309Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T13:04:40.327Z] [WARN] Step FAILED: I navigate to the products page
+[2026-05-25T13:04:40.477Z] [INFO] END [FAILED]: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T13:04:40.560Z] [INFO] START: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T13:04:40.561Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:40.794Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T13:04:40.818Z] [WARN] Step FAILED: I navigate to the products page
+[2026-05-25T13:04:40.963Z] [INFO] END [FAILED]: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T13:04:41.047Z] [INFO] START: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T13:04:41.050Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:04:41.289Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T13:04:41.306Z] [WARN] Step FAILED: I navigate to the products page
+[2026-05-25T13:04:41.452Z] [INFO] END [FAILED]: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T13:04:41.538Z] [INFO] === TEST SUITE COMPLETE ===
+[2026-05-25T13:05:05.403Z] [INFO] === TEST SUITE STARTING ===
+[2026-05-25T13:05:05.443Z] [INFO] START: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T13:05:05.472Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:05.688Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T13:05:08.276Z] [INFO] Banner image interception route registered and active
+[2026-05-25T13:05:08.439Z] [INFO] END [PASSED]: UI-016 Network Interception and Asset Resiliency
+[2026-05-25T13:05:08.537Z] [INFO] START: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T13:05:08.540Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:08.796Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T13:05:13.818Z] [WARN] Step FAILED: a registered user is logged into Browser Context A
+[2026-05-25T13:05:14.468Z] [INFO] END [FAILED]: UI-017 Multi-Context UI Session Sharing via Cookie Injection
+[2026-05-25T13:05:14.578Z] [INFO] START: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T13:05:14.580Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:14.823Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T13:05:17.669Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T13:05:18.592Z] [INFO] END [PASSED]: UI-013 Add product items into the cart from the grid layout
+[2026-05-25T13:05:18.697Z] [INFO] START: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T13:05:18.699Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:22.668Z] [INFO] Navigating to: https://www.automationexercise.com/view_cart
+[2026-05-25T13:05:28.250Z] [WARN] Step FAILED: the item quantity in the cart should reflect "2"
+[2026-05-25T13:05:28.343Z] [INFO] END [FAILED]: UI-014 Modify cart element quantifiers and verify calculation updates
+[2026-05-25T13:05:28.422Z] [INFO] START: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T13:05:28.425Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:28.684Z] [INFO] Navigating to: https://www.automationexercise.com/contact_us
+[2026-05-25T13:05:30.823Z] [INFO] END [PASSED]: UI-015 Complete the contact-us form with file attachment upload
+[2026-05-25T13:05:30.888Z] [INFO] START: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T13:05:30.889Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:31.058Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T13:05:33.191Z] [INFO] END [PASSED]: UI-001 Verify home page elements and responsive layout sections
+[2026-05-25T13:05:33.321Z] [INFO] START: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T13:05:33.324Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:33.591Z] [INFO] Navigating to: https://www.automationexercise.com/
+[2026-05-25T13:05:36.250Z] [INFO] END [PASSED]: UI-003 Navigate cleanly to the Sign-up / Login functional layout
+[2026-05-25T13:05:36.341Z] [INFO] START: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T13:05:36.343Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:36.584Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T13:05:41.546Z] [INFO] END [PASSED]: UI-004 Register an entirely new user with dynamic data
+[2026-05-25T13:05:41.675Z] [INFO] START: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T13:05:41.677Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:41.937Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T13:05:46.944Z] [WARN] Step FAILED: a registered user exists in the system
+[2026-05-25T13:05:47.241Z] [INFO] END [FAILED]: UI-005 Log in with valid credentials and verify the user profile banner
+[2026-05-25T13:05:47.340Z] [INFO] START: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T13:05:47.342Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:47.596Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T13:05:50.341Z] [INFO] END [PASSED]: UI-006 Validate login rejection and error message for invalid inputs
+[2026-05-25T13:05:50.431Z] [INFO] START: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T13:05:50.433Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:50.685Z] [INFO] Navigating to: https://www.automationexercise.com/login
+[2026-05-25T13:05:55.688Z] [WARN] Step FAILED: a registered user is logged in
+[2026-05-25T13:05:56.229Z] [INFO] END [FAILED]: UI-007 Execute a secure session logout and check state redirection
+[2026-05-25T13:05:56.386Z] [INFO] START: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T13:05:56.388Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:56.678Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T13:05:57.819Z] [INFO] END [PASSED]: UI-008 Open products grid view and confirm data item visibility
+[2026-05-25T13:05:57.914Z] [INFO] START: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T13:05:57.917Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:05:58.154Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T13:06:00.337Z] [INFO] END [PASSED]: UI-009 Open specific product details page and confirm attributes
+[2026-05-25T13:06:00.459Z] [INFO] START: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T13:06:00.461Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:06:00.705Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T13:06:02.958Z] [INFO] END [PASSED]: UI-010 Execute keyword product search yielding successful results
+[2026-05-25T13:06:03.061Z] [INFO] START: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T13:06:03.062Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:06:03.305Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T13:06:05.637Z] [INFO] END [PASSED]: UI-011 Execute keyword product search yielding empty-state results
+[2026-05-25T13:06:05.730Z] [INFO] START: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T13:06:05.733Z] [INFO] Launching Chromium for UI scenario
+[2026-05-25T13:06:05.992Z] [INFO] Navigating to: https://www.automationexercise.com/products
+[2026-05-25T13:06:08.293Z] [INFO] END [PASSED]: UI-012 Apply brand-specific navigational filters and verify item updates
+[2026-05-25T13:06:08.369Z] [INFO] === TEST SUITE COMPLETE ===

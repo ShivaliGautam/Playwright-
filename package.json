@@ -1,0 +1,42 @@
+{
+  "name": "qa-automation-framework",
+  "version": "1.0.0",
+  "description": "Enterprise-grade Playwright + TypeScript + BDD + Allure automation framework",
+  "scripts": {
+    "test:ui":         "npx cucumber-js --profile ui",
+    "test:api":        "npx cucumber-js --profile api",
+    "test:smoke":      "npx cucumber-js --profile smoke",
+    "test:regression": "npx cucumber-js --profile regression",
+    "test:allure":     "npx cucumber-js --profile allure",
+    "test:auth":       "npx cucumber-js src/features/ui/auth.feature",
+    "test:home":       "npx cucumber-js src/features/ui/home.feature",
+    "test:products":   "npx cucumber-js src/features/ui/products.feature",
+    "test:cart":       "npx cucumber-js src/features/ui/cart.feature",
+    "test:contact":    "npx cucumber-js src/features/ui/contact.feature",
+    "test:advanced":   "npx cucumber-js src/features/ui/advanced.feature",
+    "test:api:products": "npx cucumber-js src/features/api/products-api.feature",
+    "test:api:brands":   "npx cucumber-js src/features/api/brands-api.feature",
+    "test:api:users":    "npx cucumber-js src/features/api/user-lifecycle-api.feature",
+    "test:ui:headed":    "set HEADLESS=false && npx cucumber-js --profile ui",
+    "test:home:headed":  "set HEADLESS=false && npx cucumber-js src/features/ui/home.feature",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open":     "allure open allure-report",
+    "allure:serve":    "allure serve allure-results",
+    "report":          "npm run allure:generate && npm run allure:open",
+    "typecheck":       "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.2",
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.44.0",
+    "allure-cucumberjs": "^3.9.0",
+    "allure-js-commons": "^3.9.0",
+    "playwright": "^1.44.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
