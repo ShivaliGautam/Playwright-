@@ -28,6 +28,7 @@ Feature: Authentication - Registration, Login, and Logout
     When I log in with email "invalid_user_999@fake.com" and password "wrongpassword"
     Then I should see the login error message "Your email or password is incorrect!"
 
+  
   Scenario: UI-007 Execute a secure session logout and check state redirection
     Given a registered user is logged in
     When I click the logout navigation link

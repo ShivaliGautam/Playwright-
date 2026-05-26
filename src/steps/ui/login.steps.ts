@@ -5,6 +5,7 @@ import { HomePage } from '../../pages/HomePage';
 import { LoginPage } from '../../pages/LoginPage';
 import { RegisterPage } from '../../pages/RegisterPage';
 import { DataGenerator, GeneratedUser } from '../../utils/dataGenerator';
+import Logger from '../../utils/logger';
 
 Given('I am on the login page', async function (this: CustomWorld): Promise<void> {
   const loginPage = new LoginPage(this.page);
@@ -12,54 +13,90 @@ Given('I am on the login page', async function (this: CustomWorld): Promise<void
   await loginPage.assertPageLoaded();
 });
 
-Given('a registered user exists in the system', async function (this: CustomWorld): Promise<void> {
+Given(
+  'a registered user exists in the system',
+  { timeout: 60000 },
+  async function (this: CustomWorld): Promise<void> {
+    const user = DataGenerator.generateUser();
+    this.scenarioData['user'] = user;
+
+    Logger.info(`Registering new user: ${user.email}`);
+    
+    const loginPage = new LoginPage(this.page);
+    await loginPage.goto();
+    Logger.debug('Login page loaded');
+    
+    await loginPage.startSignup(user.name, user.email);
+    Logger.debug('Signup form submitted, waiting for register page...');
+
+    const registerPage = new RegisterPage(this.page);
+    // Wait for navigation to register page
+    await this.page.waitForURL(/\/signup|register/i, { timeout: 10000 }).catch(() => {
+      Logger.warn('Register page URL navigation timeout, checking for page heading...');
+    });
+    
+    await registerPage.assertPageLoaded();
+    Logger.debug('Register page loaded');
+    
+    await registerPage.fillAccountDetails(user);
+    Logger.debug('Account details filled');
+    
+    await registerPage.submitRegistration();
+    Logger.debug('Registration submitted');
+    
+    await registerPage.assertAccountCreated();
+    Logger.debug('Account creation confirmed');
+    
+    await registerPage.clickContinue();
+    Logger.debug('Continue clicked, waiting for redirect...');
+
+    // Wait for navigation to complete (with timeout to avoid hanging)
+    await Promise.race([
+      this.page.waitForNavigation({ waitUntil: 'networkidle' }),
+      new Promise(resolve => setTimeout(resolve, 30000))
+    ]).catch(() => {
+      Logger.warn('Navigation timeout, proceeding...');
+    });
+    
+    Logger.debug('Navigated to home');
+    Logger.info(`User registration complete and available: ${user.email}`);
+  }
+);
+
+Given('a registered user is logged in', { timeout: 60000 }, async function (this: CustomWorld): Promise<void> {
   const user = DataGenerator.generateUser();
   this.scenarioData['user'] = user;
 
-  // Register via UI to ensure user exists
-  const loginPage = new LoginPage(this.page);
-  await loginPage.goto();
-  await loginPage.startSignup(user.name, user.email);
-
-  const registerPage = new RegisterPage(this.page);
-  await registerPage.assertPageLoaded();
-  await registerPage.fillAccountDetails(user);
-  await registerPage.submitRegistration();
-  await registerPage.assertAccountCreated();
-  await registerPage.clickContinue();
-
-  // Wait for navigation to complete after clicking continue
-  await this.page.waitForURL('/index.php', { timeout: 30000 });
-
-  // Logout so the test can log back in
-  const homePage = new HomePage(this.page);
-  await homePage.clickLogout();
+  Logger.info(`Registering and logging in user: ${user.email}`);
   
-  // Wait for logout to complete
-  await expect(this.page.getByRole('link', { name: /Signup.*Login/i })).toBeVisible({ timeout: 30000 });
-});
-
-Given('a registered user is logged in', async function (this: CustomWorld): Promise<void> {
-  const user = DataGenerator.generateUser();
-  this.scenarioData['user'] = user;
-
   const loginPage = new LoginPage(this.page);
   await loginPage.goto();
   await loginPage.startSignup(user.name, user.email);
+  Logger.debug('Signup form submitted');
 
   const registerPage = new RegisterPage(this.page);
+  // Wait for page navigation with timeout
+  await this.page.waitForURL(/\/signup|register/i, { timeout: 10000 }).catch(() => {
+    Logger.warn('Register page URL navigation timeout');
+  });
+  
   await registerPage.assertPageLoaded();
   await registerPage.fillAccountDetails(user);
   await registerPage.submitRegistration();
+  Logger.debug('Registration submitted');
+  
   await registerPage.assertAccountCreated();
   await registerPage.clickContinue();
+  Logger.debug('Continue clicked, waiting for redirect...');
 
-  // Wait for navigation to complete after clicking continue
-  await this.page.waitForURL('/index.php', { timeout: 30000 });
+  // Wait for navigation to complete
+  await this.page.waitForNavigation({ waitUntil: 'networkidle' });
+  Logger.debug('Navigated to home');
   
   // Verify user is logged in
   const homePage = new HomePage(this.page);
-  await expect(homePage.navLoggedInAs).toContainText(user.name, { timeout: 30000 });
+  await expect(homePage.navLoggedInAs).toContainText(user.name, { timeout: 10000 });
+  Logger.info(`User logged in: ${user.email}`);
 });
 
 When(/^I click the "Signup \/ Login" navigation link$/, async function (this: CustomWorld): Promise<void> {

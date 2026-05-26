@@ -25,8 +25,10 @@ Then('the cart should contain at least one item', async function (this: CustomWo
   expect(count).toBeGreaterThan(0);
 });
 
-Then('the item quantity in the cart should reflect {string}', async function (this: CustomWorld, expectedQuantity: string): Promise<void> {
+Then('the item quantity in the cart should reflect {string}', { timeout: 60000 }, async function (this: CustomWorld, expectedQuantity: string): Promise<void> {
   const cartPage = new CartPage(this.page);
+  // Wait briefly for cart to update and DOM render
+  await this.page.waitForTimeout(500);
   const quantityText = await cartPage.getQuantityOfFirstItem();
   expect(quantityText.trim()).toBe(expectedQuantity);
 });

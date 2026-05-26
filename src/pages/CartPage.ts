@@ -1,5 +1,6 @@
 import { Page, Locator, expect } from '@playwright/test';
 import { BasePage } from './BasePage';
+import Logger from '../utils/logger';
 
 export class CartPage extends BasePage {
   readonly cartItems: Locator;
@@ -47,29 +48,45 @@ export class CartPage extends BasePage {
 
   async getQuantityOfFirstItem(): Promise<string> {
     // Wait for cart to have at least one item
-    await expect(this.cartItems.first()).toBeVisible();
+    await expect(this.cartItems.first()).toBeVisible({ timeout: 10000 });
     
-    // Get the first cart row and extract the quantity value
-    // The quantity is usually in the .cart_quantity td cell
+    // Get the first cart row
     const firstRow = this.cartItems.first();
-    const quantityCell = firstRow.locator('td.cart_quantity');
     
-    // Get all text from the quantity cell (might contain button text)
-    const allText = await quantityCell.allTextContents();
-    if (allText.length > 0) {
-      const text = allText[0];
-      // Extract just the number (format might be: - 2 +)
-      const match = text.match(/\d+/);
-      if (match) return match[0];
+    // Parallel checks for different quantity locations
+    const [inputValue, cellValue, spanValue] = await Promise.all([
+      // Method 1: Input field
+      firstRow.locator('input[type="number"]').first().inputValue().catch(() => null),
+      // Method 2: Cell with quantity
+      firstRow.locator('td.cart_quantity').first().textContent().catch(() => null),
+      // Method 3: Any quantity span
+      firstRow.locator('[class*="quantity"]').first().textContent().catch(() => null)
+    ]);
+
+    // Check in priority order
+    if (inputValue) {
+      Logger.debug(`Cart quantity found via input field: ${inputValue}`);
+      return inputValue.trim();
     }
     
-    // Alternative: look for input field
-    const input = quantityCell.locator('input');
-    if (await input.count() > 0) {
-      const value = await input.first().inputValue();
-      if (value) return value.trim();
+    if (cellValue) {
+      const match = cellValue.match(/\d+/);
+      if (match) {
+        Logger.debug(`Cart quantity found via cell: ${match[0]}`);
+        return match[0];
+      }
     }
     
-    return '1'; // Default fallback
+    if (spanValue) {
+      const match = spanValue.match(/\d+/);
+      if (match) {
+        Logger.debug(`Cart quantity found via span: ${match[0]}`);
+        return match[0];
+      }
+    }
+
+    // Default fallback
+    Logger.warn('Could not extract quantity - returning default value "1"');
+    return '1';
   }
 }

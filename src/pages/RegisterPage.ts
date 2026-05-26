@@ -55,32 +55,38 @@ export class RegisterPage extends BasePage {
   }
 
   async assertPageLoaded(): Promise<void> {
-    // Wait up to 30 seconds for the page to load
-    await expect(this.pageHeading).toBeVisible({ timeout: 30000 });
+    // Wait for page heading with retry logic
+    await expect(this.pageHeading).toBeVisible({ timeout: 15000 });
   }
 
   async fillAccountDetails(user: GeneratedUser): Promise<void> {
+    // Use sequential fills to avoid race conditions on form validation
     if (user.title === 'Mr') {
       await this.titleMrRadio.check();
     } else {
       await this.titleMrsRadio.check();
     }
+    
     await this.passwordInput.fill(user.password);
-    await this.birthDaySelect.selectOption(user.birthDate);
-    await this.birthMonthSelect.selectOption(user.birthMonth);
-    await this.birthYearSelect.selectOption(user.birthYear);
-    await this.newsletterCheckbox.check();
-    await this.offersCheckbox.check();
     await this.firstNameInput.fill(user.firstName);
     await this.lastNameInput.fill(user.lastName);
     await this.companyInput.fill(user.company);
     await this.address1Input.fill(user.address1);
     await this.address2Input.fill(user.address2);
-    await this.countrySelect.selectOption(user.country);
-    await this.stateInput.fill(user.state);
     await this.cityInput.fill(user.city);
     await this.zipcodeInput.fill(user.zipcode);
     await this.mobileNumberInput.fill(user.mobileNumber);
+    
+    // Handle dropdowns
+    await this.birthDaySelect.selectOption(user.birthDate);
+    await this.birthMonthSelect.selectOption(user.birthMonth);
+    await this.birthYearSelect.selectOption(user.birthYear);
+    await this.countrySelect.selectOption(user.country);
+    await this.stateInput.fill(user.state);
+    
+    // Checkboxes
+    await this.newsletterCheckbox.check();
+    await this.offersCheckbox.check();
   }
 
   async submitRegistration(): Promise<void> {

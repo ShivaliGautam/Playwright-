@@ -19,8 +19,8 @@ const common = {
 
 module.exports = {
   default: { ...common, timeout: 60000, stepDefinitionSyntax: undefined },
-  ui:         { ...common, paths: ['src/features/ui/*.feature'],  tags: '@ui', timeout: 60000 },
-  api:        { ...common, paths: ['src/features/api/*.feature'], tags: '@api', timeout: 60000 },
+  ui:  { ...common, paths: ['src/features/ui/*.feature'],  tags: '@ui',  format: ['progress', 'allure-cucumberjs/reporter'] },
+  api: { ...common, paths: ['src/features/api/*.feature'], tags: '@api', format: ['progress', 'allure-cucumberjs/reporter'] },
   smoke:      { ...common, paths: ['src/features/*.feature'],     tags: '@smoke', timeout: 60000 },
   regression: { ...common, paths: ['src/features/*.feature'],     tags: '@regression', timeout: 60000 },
   allure: {
